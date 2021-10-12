@@ -43,6 +43,19 @@ a {
 
 }
 
+div {
+    float: left;
+    background: url(/assets/images/background.png);
+    margin: 5px;
+    cursor: pointer;
+    border: solid #000 5px;
+ }
+ 
+ img {
+    opacity: 0;
+    visibility: hidden;
+ }
+
 /* ---Site footer--- */
 footer {
     position: fixed;

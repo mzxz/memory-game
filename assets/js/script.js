@@ -34,3 +34,38 @@ function shuffle(){
 displayImages();
 
 // Check for match
+var flg = true;
+var arr = [];
+for (let i = 0; i < allDivs.length; i++){
+    allDivs[i].addEventListener('click', function(){
+        if(flg){
+            this.firstChild.style.opacity = '1';
+            this.firstChild.style.visibility = 'visible';
+            if(arr.length == 0){
+                arr[0] = this;
+            }else if (arr.length == 1){
+                arr[1] = this;
+            } 
+
+            if (arr.length == 2){
+                flg = false;
+                setTimeout(checkImages, 250);
+            }
+
+        } else {
+            return;
+        }
+    })
+
+    function checkImages (){
+        if (arr[0].firstChild.getAttribute('src') === arr[1].firstChild.getAttribute('src')){
+        } else{
+            arr[0].firstChild.style.opacity = 0;
+            arr[1].firstChild.style.opacity = 0;
+        }
+
+        arr = [];
+        flg = true;
+    }
+}
+
