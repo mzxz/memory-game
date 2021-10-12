@@ -68,7 +68,7 @@ for (let i = 0; i < allDivs.length; i++){
         } else {
             return;
         }
-    })
+    });
 
     function checkImages (){
         if (arr[0].firstChild.getAttribute('src') === arr[1].firstChild.getAttribute('src')){
