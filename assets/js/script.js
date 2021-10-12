@@ -41,7 +41,7 @@ shuffle(images);
 
  function displayImages(){
     for (let i = 0; i < images.length; i++) {
-        gameArea.innerHTML += '<div><img src="'+images[i]+'"></div>';
+        gameArea.innerHTML += '<div><img alt="memory game images" src="'+images[i]+'"></div>';
     }
 }
 displayImages();
