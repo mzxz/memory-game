@@ -17,3 +17,20 @@ let images = ['assets/images/approximately.png',
 
 let gameArea = document.getElementById('game-area');
 let allDivs = document.getElementsByTagName('div');
+
+function shuffle(){
+
+}
+
+/**
+ * Dislay all the images
+ */
+
+ function displayImages(){
+    for (let i = 0; i < images.length; i++) {
+        gameArea.innerHTML += '<div><img src="'+images[i]+'"></div>';
+    }
+}
+displayImages();
+
+// Check for match
