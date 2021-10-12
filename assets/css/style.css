@@ -45,7 +45,7 @@ a {
 
 div {
     float: left;
-    background: url(/assets/images/background.png);
+    background: url('../images/background.png');
     margin: 5px;
     cursor: pointer;
     border: solid #000 5px;
