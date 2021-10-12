@@ -52,6 +52,8 @@ I used W3C validator for HTML and Jigsaw Validator for CSS.
 #### Index Page
 ![W3C Check](https://github.com/mzxz/memory-game/blob/main/docs/csss.jpg?raw=true)
 ![Jigsaw Check](https://github.com/mzxz/memory-game/blob/main/docs/htmll.jpg?raw=true)
+![Jshint tool](https://github.com/mzxz/memory-game/blob/main/docs/jshint1.jpg?raw=true)
+![Jshint tool](https://github.com/mzxz/memory-game/blob/main/docs/jshint2.jpg?raw=true)
 
 ### Lighthouse - Dev Tools
 ![Lighthouse](https://github.com/mzxz/memory-game/blob/main/docs/lighthouse.jpg?raw=true)
