@@ -22,6 +22,10 @@ Site home page an anchor link, header and nav.
 
 #### -The Footer-
 The footer display the game rules.
+##### How do you play?
+and A player makes a match if the two cards turned picture-side-up are identical. When a match is made,
+the player takes both cards and places them in front of him or her. That player then takes another turn,
+and continues taking turns until he or she misses.
 ![Footer Screenshot](https://github.com/mzxz/memory-game/blob/main/docs/footer.jpg?raw=true)
 
 -----------------------------------
