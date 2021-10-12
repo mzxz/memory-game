@@ -27,6 +27,8 @@ and A player makes a match if the two cards turned picture-side-up are identical
 the player takes both cards and places them in front of him or her. That player then takes another turn,
 and continues taking turns until he or she misses.
 ![Footer Screenshot](https://github.com/mzxz/memory-game/blob/main/docs/footer.jpg?raw=true)
+![Footer Screenshot Updated](https://github.com/mzxz/memory-game/blob/main/docs/footer-update.jpg?raw=true)
+
 
 -----------------------------------
 ## -Future Features-
