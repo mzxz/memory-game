@@ -52,7 +52,11 @@ I used W3C validator for HTML and Jigsaw Validator for CSS.
 #### Index Page
 ![W3C Check](https://github.com/mzxz/memory-game/blob/main/docs/csss.jpg?raw=true)
 ![Jigsaw Check](https://github.com/mzxz/memory-game/blob/main/docs/htmll.jpg?raw=true)
+
+### In the image below for JsHint tool shows warnings about ES6 features but,
+###  not an errors and the application was built for ES6 so they can be ignored.
 ![Jshint tool](https://github.com/mzxz/memory-game/blob/main/docs/jshint1.jpg?raw=true)
+### This without warnings.
 ![Jshint tool](https://github.com/mzxz/memory-game/blob/main/docs/jshint2.jpg?raw=true)
 
 ### Lighthouse - Dev Tools
