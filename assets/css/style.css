@@ -65,3 +65,18 @@ footer {
     color: #fff;
     background-color: #000;
 }
+
+/* For small screens sizes 360px and down */
+@media screen and (max-width: 360px){
+    #game-area {
+        width: 300px;
+        height: 350px; 
+    }
+    div {
+        margin: 0;
+    }
+    img {
+        width: 75px;
+        height: 75px;
+    }
+}
